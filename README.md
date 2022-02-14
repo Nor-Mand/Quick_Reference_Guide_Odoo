@@ -35,4 +35,16 @@ folder/odoo_plant_nursery/
 |   |-- plant_nursery_data.xml
 |   |-- plant_nursery_demo.xml
 |   |-- mail_data.xml
+|-- controllers/
+|   |-- plant_nursery.py
+|   |-- portal.py (inheriting portal/controllers/portal.py)
+|   |-- main.py (deprecated, replaced by platn_nursey.py
+|-- wizards/
+|   |-- make_plant_order.py
+|   |-- meke_plant_order_views.xml
+|-- report/
+|   |-- plant_order_report.py
+|   |-- plant_order_report_views.xml
+|   |-- plant_order_reports.xml (report actions, paperformat,..)
+|   |-- plant_order_templates.xml (xml report templates)
 ```
