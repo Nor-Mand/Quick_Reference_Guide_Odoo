@@ -7,7 +7,7 @@
 - views/: contains the views and templates
 - static/: contains the web assets, separated into css/, js/, imag/, lib/,
 
-###`Optional directories`
+### `Optional directories`
 - wizard/: regroups the transient models (models.TrasientModel) and their views
 - report/: contains the printable reports and models based on SQL views. Python objects and XML
 - test/: contains the Python tests
@@ -23,4 +23,16 @@ folder/odoo_plant_nursery/
 |   |-- ir.model.access.csv (the definition of access rights)
 |   |-- plant_nursery_groups.xml (user groups are defined)
 |   |-- plant_nursery_security.xml (record rules are defined)
+|-- views/
+|   |-- assets.xml (import of JS / CSS)
+|   |-- plant_nursery_menu.xml (optional definition of main menus)
+|   |-- plant_nursery_views.xml (backend views)
+|   |-- plant_templates_views.xml (portal templates
+|   |-- plant_order_views.xml
+|   |-- plant_order_templates.xml
+|   |-- res_partener_views.xml
+|-- data/
+|   |-- plant_nursery_data.xml
+|   |-- plant_nursery_demo.xml
+|   |-- mail_data.xml
 ```
