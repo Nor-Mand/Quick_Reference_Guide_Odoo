@@ -14,55 +14,25 @@
 
 ### `Tree view of module:`
 ```
-folder/odoo_plant_nursery/
+folder/Quick_Reference_Guide_odoo/
 |-- __init__.py
 |-- __manifest__.py
 |-- controllers/
-|   |-- plant_nursery.py
-|   |-- portal.py (inheriting portal/controllers/portal.py)
-|   |-- main.py (deprecated, replaced by platn_nursey.py
+|   |-- ****.py
 |-- data/
-|   |-- plant_nursery_data.xml
-|   |-- plant_nursery_demo.xml
-|   |-- mail_data.xml
+|   |-- ****.xml
 |-- models/
-|   |-- plant_nursery.py (first main model)
-|   |-- plant_order.py (another main model)
-|   |-- res_partner.py (inherited Odoo model)
+|   |-- ****.py 
 |-- report/
-|   |-- plant_order_report.py
-|   |-- plant_order_report_views.xml
-|   |-- plant_order_reports.xml (report actions, paperformat,..)
-|   |-- plant_order_templates.xml (xml report templates)
+|   |-- ****.py
 |-- security/
-|   |-- ir.model.access.csv (the definition of access rights)
-|   |-- plant_nursery_groups.xml (user groups are defined)
-|   |-- plant_nursery_security.xml (record rules are defined)
+|   |-- ir.model.access.csv
 |-- static/
-|   |-- img
-|   |   |-- my_logo.png
-|   |   |-- logo.jpg
-|   |-- lib/
-|   |   |-- external_lib/
 |   |-- src/
-|   |   |-- js/
-|   |   |   |-- widget_a.js
-|   |   |   |-- widget_b.js
-|   |   |-- scss/
-|   |   |   |-- widget_a.scss
-|   |   |   |-- widget_b.scss
-|   |   |-- xml/
-|   |   |   |-- widget_a.xml
-|   |   |   |-- widget_b.xml
+|   |   |-- description/
+|   |   |   |-- icon.png
 |-- views/
-|   |-- assets.xml (import of JS / CSS)
-|   |-- plant_nursery_menu.xml (optional definition of main menus)
-|   |-- plant_nursery_views.xml (backend views)
-|   |-- plant_templates_views.xml (portal templates
-|   |-- plant_order_views.xml
-|   |-- plant_order_templates.xml
-|   |-- res_partener_views.xml
+|   |-- ****.xml
 |-- wizards/
-|   |-- make_plant_order.py
-|   |-- meke_plant_order_views.xml
+|   |-- ****.py
 ```
