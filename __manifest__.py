@@ -1,4 +1,4 @@
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 {
     'name': "Nordoo Art Gallery",
     'version': '1.0',

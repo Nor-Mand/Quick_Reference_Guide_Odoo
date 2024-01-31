@@ -22,15 +22,15 @@ folder/Quick_Reference_Guide_odoo/
 |-- data/
 |   |-- ****.xml
 |-- models/
-|   |-- ****.py 
+|   |-- __init__.py
+|   |-- gallery_art.py 
 |-- report/
 |   |-- ****.py
 |-- security/
 |   |-- ir.model.access.csv
 |-- static/
-|   |-- src/
-|   |   |-- description/
-|   |   |   |-- icon.png
+|   |-- description/
+|   |   |-- icon.png
 |-- views/
 |   |-- ****.xml
 |-- wizards/
