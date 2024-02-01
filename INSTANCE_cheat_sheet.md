@@ -30,3 +30,15 @@
    ```commandline
    $ git clone -b 16.0 --single-branch --depth 1 https://github.com/odoo/odoo.git
    ```
+6. Generate configuration file
+   ```commandline
+   $ ./odoo-bin --save --config odoo.cfg --stop-after-init
+   ```
+   * Option during development
+   
+   | Options | Format                               | Usage                                                                                                                                 |
+   |---------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+   | -i      | comma-sepaared list of module names   | It will install given modules by default while initializing the database                                                              |
+   | -u      | comma-separated list of module names | It will update given modules when you restart the server. It is mostly used when you modify source code or update the branch from git |
+   | --dev   | all,reload,qweb,werkzeug,xml         | This enables developer mode and the auto-reload feature.                                                                              |
+      
