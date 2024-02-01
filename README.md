@@ -35,4 +35,7 @@ folder/Quick_Reference_Guide_odoo/
 |   |-- ****.xml
 |-- wizards/
 |   |-- ****.py
+|-- INSTANCE_cheat_sheet.md
+|-- MANIFEST_cheat_sheet.md
+|-- README.md
 ```
