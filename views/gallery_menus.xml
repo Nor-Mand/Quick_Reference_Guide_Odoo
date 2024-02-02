@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Main menu -->
+    <menuitem
+            id="gallery_menu_root"
+            name="Gallery Art"
+            web_icon="Quick_Reference_Guide_Odoo,static/description/icon.png"
+    />
+    <!-- menu option -->
+    <menuitem
+        id="gallery_menu_galleries"
+        name="Galleries"
+        parent="gallery_menu_root"
+        action="gallery_view_action"
+    />
+</odoo>
