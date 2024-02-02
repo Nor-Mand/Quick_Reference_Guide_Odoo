@@ -6,11 +6,19 @@
             name="Gallery Art"
             web_icon="Quick_Reference_Guide_Odoo,static/description/icon.png"
     />
-    <!-- menu option -->
+    <!-- menu option Gallery -->
     <menuitem
-        id="gallery_menu_galleries"
-        name="Galleries"
+            id="gallery_menu_galleries"
+            name="Galleries"
+            parent="gallery_menu_root"
+            action="gallery_view_action"
+    />
+    <!-- menu option Artist   -->
+    <menuitem
+        id="gallery_menu_artist"
+        name="Artist"
         parent="gallery_menu_root"
-        action="gallery_view_action"
+        action="artist_view_action"
+        sequence="10"
     />
 </odoo>

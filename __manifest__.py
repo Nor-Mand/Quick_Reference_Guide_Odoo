@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "Nordoo Art Gallery",
     'version': '1.0',
@@ -11,8 +10,12 @@
     'category': "Art",
     'depends': ['base'],
     'data': [
-        # "views/***.xml"
+        "security/ir.model.access.csv",
+        "views/gallery_view.xml",
+        "views/artist_view.xml",
+        "views/gallery_menus.xml",
     ],
     'installable': True,
     'application': True,
 }
+# -*- coding: utf-8 -*-

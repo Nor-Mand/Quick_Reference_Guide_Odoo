@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+<!--  view tree  -->
+    <record id="artist_view_tree" model="ir.ui.view">
+        <field name="name">artist.view.tree</field>
+        <field name="model">gallery.artists</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="art_style"/>
+                <field name="date_born"/>
+                <field name="date_died"/>
+            </tree>
+        </field>
+    </record>
+<!--  view form  -->
+    <record id="artist_view_form" model="ir.ui.view">
+        <field name="name">artist.view.form</field>
+        <field name="model">gallery.artists</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="art_style"/>
+                        </group>
+                        <group>
+                            <field name="date_born"/>
+                            <field name="date_died"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+<!--  View action  -->
+    <record id="artist_view_action" model="ir.actions.act_window">
+        <field name="name">Artist</field>
+        <field name="res_model">gallery.artists</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

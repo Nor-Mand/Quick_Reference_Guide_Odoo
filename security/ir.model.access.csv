@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+Quick_Reference_Guide_Odoo.access_gallery_art,access_gallery_art,Quick_Reference_Guide_Odoo.model_gallery_art,base.group_user,1,1,1,1
+Quick_Reference_Guide_Odoo.access_gallery_artists,access_gallery_artists,Quick_Reference_Guide_Odoo.model_gallery_artists,base.group_user,1,1,1,1
