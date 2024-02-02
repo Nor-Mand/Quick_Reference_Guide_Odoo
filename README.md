@@ -21,6 +21,8 @@ folder/Quick_Reference_Guide_odoo/
 |   |-- ****.py
 |-- data/
 |   |-- ****.xml
+|-- demo/
+|-- il8n/
 |-- models/
 |   |-- __init__.py
 |   |-- gallery_art.py 
@@ -31,6 +33,11 @@ folder/Quick_Reference_Guide_odoo/
 |-- static/
 |   |-- description/
 |   |   |-- icon.png
+|   |-- src/
+|   |   |-- js
+|   |   |-- scss
+|   |   |-- css
+|   |   |-- xml
 |-- views/
 |   |-- ****.xml
 |-- wizards/

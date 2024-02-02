@@ -7,4 +7,6 @@ class GalleryArt(models.Model):
     _description = "Gallery Art"
 
     name = fields.Char(string="Gallery Name", required=True)
+    contact_ids = fields.Many2many('res.partner', string="Contact")
+    about = fields.Text(string="About the Gallery")
 
